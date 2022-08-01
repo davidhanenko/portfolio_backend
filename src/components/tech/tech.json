@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_tech_teches",
+  "info": {
+    "displayName": "tech",
+    "icon": "wrench",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tech_title": {
+      "type": "string"
+    },
+    "tech_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

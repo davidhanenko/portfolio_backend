@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "greeting": {
+      "type": "richtext",
+      "required": true
+    },
+    "tech": {
+      "type": "dynamiczone",
+      "components": [
+        "tech.tech"
+      ]
+    },
+    "meta_description": {
+      "type": "richtext"
+    }
+  }
+}

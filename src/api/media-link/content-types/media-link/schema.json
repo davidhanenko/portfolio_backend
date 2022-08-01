@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "media_links",
+  "info": {
+    "singularName": "media-link",
+    "pluralName": "media-links",
+    "displayName": "Media link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "string"
+    }
+  }
+}
