@@ -31,7 +31,11 @@ module.exports = [
     config: {
       enabled: true,
       header: "*",
-      origin: ["http://localhost:8888", "http://localhost:1337"],
+      origin: [
+        "http://localhost:8888",
+        "http://localhost:1337",
+        "https://portfolio-backend-r7r5p.ondigitalocean.app",
+      ],
     },
   },
   "strapi::poweredBy",
