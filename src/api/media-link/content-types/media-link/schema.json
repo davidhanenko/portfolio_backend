@@ -4,7 +4,8 @@
   "info": {
     "singularName": "media-link",
     "pluralName": "media-links",
-    "displayName": "Media link"
+    "displayName": "Media link",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "linkedin": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "github": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "facebook": {
       "type": "string"
     },
     "resume": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
