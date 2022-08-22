@@ -15,12 +15,6 @@
     "header": {
       "type": "string"
     },
-    "text_section": {
-      "type": "dynamiczone",
-      "components": [
-        "text.text"
-      ]
-    },
     "img": {
       "type": "media",
       "multiple": false,
@@ -32,29 +26,20 @@
         "audios"
       ]
     },
-    "stack_tier_1": {
-      "type": "dynamiczone",
-      "components": [
-        "tech.tech"
-      ]
+    "tech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tech.tech"
     },
-    "stack_tier_2": {
-      "type": "dynamiczone",
-      "components": [
-        "tech.tech"
-      ]
+    "text_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.text"
     },
-    "stack_tier_3": {
-      "type": "dynamiczone",
-      "components": [
-        "tech.tech"
-      ]
-    },
-    "stack_ongoing": {
-      "type": "dynamiczone",
-      "components": [
-        "tech.tech"
-      ]
+    "tech_learning": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tech.tech"
     }
   }
 }
